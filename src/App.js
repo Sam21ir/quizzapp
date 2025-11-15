@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/Footer';
 import Home from './pages/home.jsx';
 import Quiz from './pages/quiz.jsx';
 import Result from './pages/result.jsx';
