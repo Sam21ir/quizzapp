@@ -65,16 +65,16 @@ const Quiz = () => {
     return null;
   }
 
-  const reset = () => {
-    setIndex(0);
-    setQuestion(data[0]);
-    setLock(false);
-    setScore(0);
-    option_array.forEach((option) => {
-      option.current.classList.remove("correct");
-      option.current.classList.remove("wrong");
-    });
-  }
+  // const reset = () => {
+  //   setIndex(0);
+  //   setQuestion(data[0]);
+  //   setLock(false);
+  //   setScore(0);
+  //   option_array.forEach((option) => {
+  //     option.current.classList.remove("correct");
+  //     option.current.classList.remove("wrong");
+  //   });
+  // }
 
   return (
     <div>
