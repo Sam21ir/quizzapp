@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: linear-gradient(#d9d9d9, #B27878); */
+}
+
 .stylenavbar {
   /* text-align: center; */
   background-color: #D9D9D9;
@@ -13,12 +22,14 @@
   right: 0;
   z-index: 1000;
   width: 100%;
+  height: 60px;
 }
-
-.logo {
+.stylenavbar h1 {
   margin-left: 40px;
-  font-size: xx-large;
+  display: flex;
+  font-size: 30px;
   font-weight: bold;
+  align-items: center;
 }
 
 .liststyle {
@@ -30,18 +41,14 @@
   font-size: large;
 }
 
-.stylefooter {
-  text-align: center;
-  background-color: #B27878;
-  padding: 10px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.liststyle li a {
+  text-decoration: none;
   color: #333;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  width: 100%;
+  font-weight: 500;
+}
+
+.liststyle li a:hover {
+  color: #B27878;
 }
 
 .homestyle  {
@@ -52,15 +59,86 @@
   color: #333;
 }
 
-.btnhome {
+.homestyle button {
   background-color: #B27878;
-  color: white;
+  /* color: white; */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  color: white;
+  margin-top: 30px;
 }
+
+.homestyle button a {
+  text-decoration: none;
+  color: white;
+}
+.homestyle button:hover {
+  background-color: #9c5f5f;
+}
+
+.cardquestions {
+  background-color: #F2F2F2;
+  padding: 40px 50px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 630px;
+}
+
+/* .cardquestions hr {
+  height: 2px;
+  border: none;
+  background-color: #B27878;
+} */
+
+.cardquestions h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.cardquestions ul li{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cardquestions button {
+  background-color: #B27878;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  font-weight: 500;
+}
+
+.cardquestions .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.cardquestions .wrong {
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+
 
 .resultstyle {
   padding: 150px;
@@ -68,4 +146,18 @@
   margin-top: 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+}
+
+.stylefooter {
+  text-align: center;
+  background-color: #B27878;
+  padding: 10px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
 }
