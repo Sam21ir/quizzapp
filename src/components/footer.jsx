@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="stylefooter">
-        <p>&copy; Quiz App from TechEdu Learning Center © 2025. All rights reserved.</p>
+        <p>QuizAPP. from TechEdu Learning Center © 2025.</p>
     </footer>
   );
 }

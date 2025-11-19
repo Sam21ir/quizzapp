@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/quizzapp">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
