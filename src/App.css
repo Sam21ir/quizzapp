@@ -97,10 +97,16 @@ body {
   border: none;
   background-color: #B27878;
 } */
+.cardquestions h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
 
 .cardquestions h2 {
   font-size: 27px;
   font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 .cardquestions ul li{
@@ -113,6 +119,8 @@ body {
   margin-bottom: 20px;
   font-size: 20px;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 .cardquestions button {
@@ -126,6 +134,14 @@ body {
   width: 150px;
   height: 50px;
   font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.cardquestions div {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  /* display: inline-flex; */
 }
 
 .cardquestions .correct {

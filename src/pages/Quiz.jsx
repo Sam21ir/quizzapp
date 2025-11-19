@@ -90,7 +90,7 @@ const Quiz = () => {
         <button onClick={next}>
           {index === data.length - 1 ? 'Finish' : 'Next'}
         </button>
-        <div className='index'>
+        <div>
           {index + 1} of {data.length} questions
         </div>
       </div>
